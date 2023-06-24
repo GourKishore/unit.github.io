@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="lightgray">
+	<div class="container-flude">
+		<div class="container">
+			<h1>Unit Converter:</h1>
+			<form action="" name="f1">
+				<div id="main">
+					<select name="s1" id="property" onchange="propertychange(this)">
+						<option value="">select Unit</option>
+						<option value="length">Length</option>
+						<option value="volume">Volume</option>
+						<option value="memory_unit">Memory_unit</option>
+					</select> 
+				</div>
+			</form>	
+			<form action="" name="f2">
+				<div id="convert">	
+					<input type="text" id="text1" name="input1" oninput="calfunc1()" onblur="blurfunc()">
+					<select name="s2" id="first">	
+					</select> 
+				</div>	
+			</form>	
+			<form name="f3">	
+				<div id="convert1">	
+					<input type="text" id="text2" name="input2" oninput="calfunc2()" onblur="blurfunc()">
+					<select name="s3" id="second">	
+					</select>	
+				</div>
+			</form>
+		
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

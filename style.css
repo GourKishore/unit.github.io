@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container-fluid{
+	width:100%;
+	height:100vh;
+}
+.container{
+	width:45%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
+	height:300px;
+	/* border:2px solid black; */
+}
+
+#main select{
+	 width:100%;
+	 height:50px;
+	 text-align: center;
+}
+#main option{
+	font-size: 25px;
+}
+#convert1 input{
+	width:45%;
+	 height:50px;
+	 margin-top:20px;
+}
+
+#convert1 select{
+	 width:45%;
+	 height:50px;
+	 margin-top:20px;
+}
+#convert1 select option{
+	font-size: 30px;
+}
+#convert input{
+	width:45%;
+	 height:50px;
+	 margin-top:20px;
+}
+
+#convert select{
+	 width:45%;
+	 height:50px;
+	 margin-top:20px;
+}
+#convert select option{
+	font-size: 30px;
+}
